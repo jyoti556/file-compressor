@@ -1,0 +1,154 @@
+html
+{scroll-behavior: smooth;}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff7979; /* Red */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-section h1.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.right-section a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.right-section a:hover {
+  color: #fab1a0; /* Lighter Red-Orange */
+}
+
+.container {
+  width: 100%;
+}
+
+.main-section {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section {
+  background-color: #ff7979; /* Red */
+  height: 90vh; 
+}
+
+.home-section h2 {
+  margin-top: 10vh;
+  color: #ffffff; /* Orange */
+  text-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+.about-section {
+  background-color: #ae473b; /* Dark Pink */
+  height: 100vh;
+}
+
+#about{
+  justify-content: left;
+}
+
+.about-section h2 {
+  color: rgb(255, 118, 117); /* Pink */
+}
+
+.file-label {
+  display: inline-block;
+  position: relative;
+  background-color: #ae473b; /* Blue */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.file-label span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+}
+
+.file-label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-label:hover {
+  background-color: rgb(0,0,0,0.1) /* Darker Blue on hover */
+}
+
+
+button {
+  background-color:#ae473b; /* Orange */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.2) /* Darker Orange */
+}
+
+.download-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ff2b2b; /* Orange */
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #ff7979; /* Red */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
